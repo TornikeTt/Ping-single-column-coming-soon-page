@@ -17,7 +17,11 @@
             <h1><span class="we-are">We are launching</span> soon!</h1>
             <p>Subscribe and get notified</p>
             <div class="input-div">
-                <input type="text" class="form-control" placeholder="Your Email Addres..." id="input"/>
+                <form>
+                    <label>
+                    <input type="text" title="text" class="form-control" placeholder="Your Email Addres..." id="input"/>
+                    </label>
+                </form>
                 <button class="btn btn-primary" onclick="check()" >Notify me</button>
             </div>
             <p id="text" class="text"></p>
@@ -28,9 +32,9 @@
         </div>
 
         <div class="down-context">
-            <button onclick="check()" ><i class="fab fa-facebook-f"></i> </button>
-            <button onclick="check()" ><i class="fab fa-twitter"></i></button>
-            <button onclick="check()" ><i class="fab fa-instagram"></i></button>
+            <button onclick="check()" title="facebook"><i class="fab fa-facebook-f"></i> </button>
+            <button onclick="check()" title="twitter"><i class="fab fa-twitter"></i></button>
+            <button onclick="check()" title="instagram"><i class="fab fa-instagram"></i></button>
         </div>
         <p class="down-p">© Copyright Ping. All rights reserved.</p>
     </div>
